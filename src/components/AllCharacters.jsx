@@ -11,10 +11,10 @@ function AllCharacters() {
     },[])
     
     return (
-    <div>
+    <div className='charactersContainer'>
         {characters.map((character)=>{
             return(
-                <div key={character.id}>
+                <div className='charactersContent' key={character.id}>
                     <Link to={`/character/${character.id}`}><img src={character.image} alt={character.name} /></Link>
                 </div>
             )
