@@ -16,6 +16,7 @@ function AllCharacters() {
             return(
                 <div className='charactersContent' key={character.id}>
                     <Link to={`/character/${character.id}`}><img src={character.image} alt={character.name} /></Link>
+                    <h1>{character.name}</h1>
                 </div>
             )
         })}

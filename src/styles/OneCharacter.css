@@ -1,7 +1,47 @@
-.basic-btn {
-    margin: 20px;
-    border-radius: 5px;
-    background-color: rgb(4, 107, 107);
-    color: white;
-    border:none;
+    .characterContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+    
+    .characterContent {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px ;
+    }
+    .characterContent > * {
+        width: 100%;
+    }
+    
+    .characterContent h1 {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    
+    
+    .characterContent img{
+        width: 200px
+    }
+
+    .basic-btn {
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #5dc7a9;
+        border: 1px solid #5dc7a9;
+        color: #131313;
+        border:none;
+        font-weight: bold;
+        cursor: pointer;
+        display: block;
+
+        }
+
+        .basic-btn:hover {
+            color: #5dc7a9;
+            background-color: #131313;
+            border: 1px solid #5dc7a9;
+            }
